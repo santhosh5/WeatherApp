@@ -39,6 +39,7 @@ public class WeatherActivity extends AppCompatActivity implements WeatherI.ApiCa
     protected void onCreate ( Bundle savedInstanceState ) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        // testing
 
         tVCityName = findViewById(R.id.tv_cityname);
         tvDate = findViewById(R.id.tv_date);
